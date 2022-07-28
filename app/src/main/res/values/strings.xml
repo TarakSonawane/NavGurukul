@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task_Meraki</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

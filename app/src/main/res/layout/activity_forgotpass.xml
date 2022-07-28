@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgotpassActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="PASSWORD RESET"
+            android:textColor="#47C5EC"
+            android:textSize="30sp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/for_user"
+            android:layout_marginLeft="30dp"
+            android:drawableLeft="@drawable/user"
+            android:paddingLeft="10dp"
+            android:inputType="text"
+            android:fontFamily="serif-monospace"
+            android:layout_marginRight="30dp"
+            android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="username"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:background="@drawable/text_background"
+
+            android:layout_marginBottom="13dp"
+            android:textSize="20dp">
+
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/for_reset"
+
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="RESET"
+                android:background="@drawable/text_background"
+                android:textSize="17dp"
+                android:backgroundTint="#EFA716">
+            </Button>
+            <Button
+                android:id="@+id/for_login"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login page"
+                android:textColor="@color/black"
+                android:background="@drawable/text_background"
+                android:textSize="12dp"
+                android:backgroundTint="#EFA716">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="AppTheme.BackgroundImageStyle">
+        <item name="android:windowBackground">@drawable/rectangle_1</item>
+    </style>
+    <style name="AppTheme.TextBackground">
+        <item name="android:background">@drawable/text_background</item>
+    </style>
+</resources>
